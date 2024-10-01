@@ -1,4 +1,3 @@
-// Retrieve data and present it in HTML
 function retrieveWeather(response) {
   let temperatureElement = document.querySelector("#today-temperature");
   let temperature = response.data.temperature.current;
